@@ -22,14 +22,16 @@
 }
 
 body {
-  width: fit-content;
-  padding: 10px;
   background-color: var(--very-dark-blue);
+  text-align: center;
 }
 
 .card {
-  margin: 100px auto;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 340px;
+  max-width: 95%;
   border-radius: 15px;
   overflow: hidden;
   background-color: var(--dark-desaturated-blue);

@@ -52,9 +52,14 @@ body {
   content: '';
 }
 
-.card-img {
+.card-img-mobile {
   display: block;
   width: 100%;
+}
+
+.card-img-desktop {
+  display: none;
+  height: 100%;
 }
 
 .card-body {
@@ -98,8 +103,41 @@ h1, b {
 
 /* desktop design */
 
-@media (min-width: 481px) {
+@media (min-width: 768px) {
   .card {
     flex-direction: row-reverse;
+    width: 1080px;
+  }
+
+  .card-img-mobile {
+    display: none;
+  }
+
+  .card-img-container {
+    max-width: 50%;
+  }
+
+  .card-img-desktop {
+    display: block;
+  }
+
+  .card-body {
+    max-width: 50%;
+    padding: 70px;
+    text-align: left;
+  }
+
+  .card-stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .card-stats div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
   }
 }

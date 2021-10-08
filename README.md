@@ -12,6 +12,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Notes for next time](#notes-for-next-time)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -52,6 +53,13 @@ Users should be able to:
 
 - I want to get better at working with images, especially when it comes to making them responsive.
 - I want to improve my ability to modify the height and width of elements to achieve the desired effect.
+
+### Notes for next time
+
+- Look into using picture tags for images.
+- Look up mix-blend-mode for adding hue to images.
+- Using background images makes replacing them in media queries easier, as only the url needs to be changed.
+- For contiguous content that shares a similar format (e.g. the card stats), consider using ul and li tags.
 
 ### Useful resources
 
